@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.infox.dhruv.techfest.FragmentB"
+    android:background="@drawable/back">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/map"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        tools:context="com.infox.dhruv.techfest.MapsActivity"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="360dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GURU GOBIND SINGH"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INDRAPRASTHA UNIVERSITY"
+        android:textColor="#000000"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textStyle="bold" />
+
+    <TextView android:layout_width="284dp" android:layout_height="136dp"
+        android:layout_marginTop="20dp"
+        android:text="ADDRESS : Guru Gobind Singh Indraprastha University, Sector 16 C, Dwarka, New Delhi, Delhi :110078 "
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/textView2"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
+
+
+

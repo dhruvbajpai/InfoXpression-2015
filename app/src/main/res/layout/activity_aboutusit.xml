@@ -1,0 +1,76 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/about"
+
+            android:id="@+id/imageview"
+
+            />
+    </LinearLayout>
+
+<ScrollView
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="200dp">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/loopview"
+
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="bottom"
+            android:layout_height="20dp"
+            android:src="@drawable/horizontalline"/>
+        </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:id="@+id/tv"
+        android:layout_marginLeft="5dp"
+        android:textStyle="normal"
+        android:text="HELLO WORLD HOW ARE YOU DOING"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:textColor="#FFFFFF"></TextView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+</LinearLayout>

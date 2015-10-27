@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/back"
+    tools:context="com.infox.dhruv.techfest.Event_DESC_final">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:id="@+id/heading"
+        android:text="EVENT NAME"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        />
+    <ScrollView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <TextView
+
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Date :"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_text_size_large_material"/>
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/date"
+                    android:layout_height="20dp"
+                    android:textColor="#FFFFFF"
+                    android:text="13/03.2015"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Time :"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_text_size_large_material"/>
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:textColor="#FFFFFF"
+                    android:text="13/03.2015"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Venue :"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/abc_text_size_large_material"/>
+                <TextView
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/venue"
+                    android:layout_height="20dp"
+                    android:textColor="#FFFFFF"
+                    android:text="ECR-215"/>
+
+                </LinearLayout>
+            <ImageView
+
+                android:layout_width="match_parent"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/event_image"
+                android:src="@drawable/robohustle"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="top"
+                android:layout_height="200dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="top"
+
+            android:src="@drawable/horizontalline"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#FFFFFF"
+                android:text="Description"
+                android:fontFamily=""
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textColor="#EEC42F"
+                android:textSize="25dp"
+                android:textStyle="bold|"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/desc"
+                android:textColor="#FFFFFF"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:text="This event will have two teams competing against each other. There will be different balls in
+the arena, which will have a hole in the center. Each ball will have some points. Participants
+will try to get as many balls as they can, using their robots while their opponents try the same.
+Teams can drop their opponents’ balls in the hole in order to prevent them from scoring those
+points. The competitors can also knock out their opponents by knocking them into the hole
+twice."/>
+
+    </LinearLayout>
+
+
+        </ScrollView>
+
+
+
+</RelativeLayout>

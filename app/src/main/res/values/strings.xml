@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TechFest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registeration__form">Registeration_Form</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="title_section1">PROGRAMMING</string>
+    <string name="title_section2">ELECTRONICS</string>
+    <string name="title_section3">NON-TECH</string>
+    <string name="title_section4">ONLINE</string>
+
+    <string-array name="competition_list">
+        <item>Events List</item>
+        <item>About USICT</item>
+        <item>About InfoX</item>
+        <item>Location</item>
+        <item>Our Sponsors</item>
+        <item>Registration</item>
+        <item>Contact Us</item>
+        <item>News Board</item>
+        <item>Dev Team</item>
+    </string-array>
+    <string-array name="comp">
+        <item>Algoholics</item>
+        <item>Codester</item>
+        <item>Java Jig</item>
+        <item>Linux Ninja</item>
+        <item>Back Gear</item>
+        <item>Data Crunchers</item>
+        <item>Web Bee</item>
+        <item>Robo Race</item>
+        <item>Mind The Line</item>
+        <item>Robo Hustle</item>
+        <item>Circuitrix</item>
+        <item>Clash On Lan</item>
+        <item>Crusade</item>
+        <item>Geek Wars</item>
+        <item>Greenovation</item>
+        <item>Know It All</item>
+        <item>RubiX</item>
+        <item>Almightee</item>
+        <item>BOOTSTRApp</item>
+        <item>Rooters</item>
+        <item>Xcel Lense</item>
+    </string-array>
+    <string-array name="ac_comp_list">
+        <item>ALOGOHOLICS</item>
+        <item>JAVA JIG</item>
+        <item>CODESTER</item>
+        <item>BACK GEAR</item>
+        <item>LINUX COMMAND NINJA</item>
+        <item>BOOTSTRAPP</item>
+    </string-array>
+    <string-array name="ac_event_desc">
+        <item>We are obsessed with solutions to all our problems. But we know that a problem may have
+any number of solutions. To find out the least complex path to our solutions we bring you
+algoholics. Write the best pseudo code and prove your mettle.</item>
+        <item>JAVA is a necessity in today’s world. Since its inception in the days when it was ‘oak’, JAVA’s
+contributions have been innumerable. Called the most robust programming language, the
+JAVA JIG tests your proficiency in this language. It will test how well you know the nuances
+of JAVA as well as your skills as a coder.</item>
+        <item>To challenge your very basic understanding of object oriented programming, we bring to you
+the C++ code jam. Here we check not only your problem solving skills, but also your grasp
+over this fascinating language.</item>
+        <item>This contest will challenge the conventional norms of programming where in a programmer
+generates output from the code. Here, we present the competitors with the output and the
+programmers are required to apply their reverse engineering skills to generate the code that
+gives this output.</item>
+        <item>Linux was a work of genius. An operating system that was free. Not only that, you could
+contribute in making it better. This gave birth to a community formed of programmers with
+great skill. To salute this phenomena of open source technology, we bring to you the LINUX
+COMMAND NINJA. Show the world how well you know the linux command line and how can
+you contribute to this dynamic technology.</item>
+        <item>BOOTSTRAPP</item>
+    </string-array>
+
+    <string name="title_activity_splash">InfoXpression</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_event_list">Event_list</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ghar">Ghar</string>
+    <string name="title_activity_event__generated">Event_Generated</string>
+    <string name="title_activity_events_page">Events_page</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_event__page__re">Event_Page_Re</string>
+    <string name="title_activity_test_">Test_Activity</string>
+    <string name="title_activity_event__desc_final">Event_DESC_final</string>
+    <string name="title_activity_about_usict">about_usict</string>
+    <string name="title_activity_aboutusit">aboutusit</string>
+    <string name="title_activity_contact_us">contact_us</string>
+    <string name="title_activity_aboutinfox">aboutinfox</string>
+    <string name="title_activity_contactus">contactus</string>
+    <string name="title_activity_registered">registered</string>
+    <string name="title_activity_sponsors">sponsors</string>
+    <string name="title_activity_news_board">news_board</string>
+
+</resources>

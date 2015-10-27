@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registerpagebck">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_vertical"
+        android:text="REGISTRATION INFORMATION"
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingLeft="30dp"
+
+        android:id="@+id/textView6" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_name"
+        android:hint="Name" />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/et_phone"
+        android:hint="Phone" />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/et_mail"
+        android:hint="E-Mail" />
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/et_college"
+        android:hint="College" />
+
+    <Spinner
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2" />
+
+
+    <RelativeLayout
+        android:layout_marginTop="22dp"
+        android:layout_width="250dp"
+        android:layout_marginLeft="45dp"
+        android:orientation="horizontal"
+
+        android:layout_height="80dp">
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register_button"
+            android:id="@+id/button" />
+    </RelativeLayout>
+</LinearLayout>
+
+
+
+</LinearLayout>

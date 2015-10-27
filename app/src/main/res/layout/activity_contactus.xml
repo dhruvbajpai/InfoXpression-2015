@@ -1,0 +1,921 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CONTACT US"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="@color/abc_search_url_text_normal"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Teachers-In-Charge"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Dr.Amit Prakash Singh"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Mr.Ashish Payal"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Mr Shiv Raam Meena"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+
+                android:text="Core Team"
+
+
+                android:background="#000000"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Organizers"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Aman Jain"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Ujwal Jha"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Technical Head"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Himanshu Garg"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Rahul Midha"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Website Design and Dev"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Ankit Jain"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Sponsorship Head"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Vibhor Arora"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="PR and Social Media"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Shubhdeep Singh"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Cultural Head"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Reva Nanda"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Hospitality"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Shivendu Kumar"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Nikhil"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Android App Team"
+                android:background="#FFFFFF"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Dhruv Bajpai"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Aakriti Gupta"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Pulkit Bhardwaj"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Ashutosh Mittal"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+
+                android:text="Various Event Heads"
+
+
+                android:background="#000000"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="#FFFFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Codechef Codester"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Dhruv Bajpai : 9899881387"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Ashutosh Mittal : 8826838305"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Rahul : 9873124753
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="bootstrApp"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Lakshay Tutlani : 9873309674
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Aakriti Gupta : 9953508991"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Gautam Verma : 9643649343"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Clash On Lan"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Abhinav :8882962692
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Shashwata : 9717708177
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Mind the Line"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Shashwata : 9717708177
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Gaurav Jindal : 8860927627
+
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Rubik's Cube"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Himanshu Garg : 9654154834
+
+
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Nishant Chandel: 9717374712
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Reva Nanda : 9871920955"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Tech Quiz"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Ankit Jain : 9811258824"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Khushagra : 9717927874
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Shikher : 7503957385"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Database"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Arun Dudeja : 8742999657"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Ishaan Singhal : 9711321472"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Back Gear"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Jasvinder : 9560052722"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Mukul  : 9999386541"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Web-Bee"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Shubham Sharma : 9968636370
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Shubham Gupta : 9599099911"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Robo-Race"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Lakshay Chutani : 9650861123"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Anshu Kumar : 8285240622
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Algoholics"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Varun Joshi : 9013267394
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Sajal Garg : 8447262336"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Circuitrix"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Jishnu Sahney : 9990080313"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Mayank Chawla : 9716720795
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Geek Wars"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Richa Mittal : 9650062393
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Anukriti Jain : 8826844461"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Robo-Hustle"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Amarjeet Singh : 9958185594"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Sajeet Shah : 8130330428
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Anmol Singh : 9811645309"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Java-Jig"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Amit Dubey
+ : 9654385171
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Jeniya Jeph
+ : 9810587741
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Crusade"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Vaibhav Bhatia
+ : 9953444417
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Mayank Taneja
+ : 9560335566
+
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Simran Singh
+ : 9891982071
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Linux Command Ninja"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Bhavesh Sethi : 9910524654"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Aman Arora : 9015576777"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Greenovation"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Aditi Johari
+ : 9811677014
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Pinky
+ : 9643960924
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Know-it-all"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Satyam Sarvagi : 9013668785"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Pankaj Singh : 8527996160"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Arun : 9718568867
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Almightee"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Jaikrait Singh : 9582465900"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Vimal Jeph : 9999978728"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Xcel-Lense"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Reema Bharti : 9013362793
+"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Rahul Thakur : 9899824061"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Rooters"
+                android:background="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="25dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Rahul Pratap Singh : 9555359369"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="Anil"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

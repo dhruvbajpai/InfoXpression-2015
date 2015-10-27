@@ -1,0 +1,75 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ab_infox"
+
+            android:id="@+id/imageview"
+
+            />
+    </LinearLayout>
+
+    <ScrollView
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/back"
+
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="200dp">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/infox_view"
+
+
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_gravity="bottom"
+                    android:layout_height="20dp"
+                    android:src="@drawable/horizontalline"/>
+            </LinearLayout>
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
+                android:id="@+id/tv"
+                android:layout_marginLeft="5dp"
+                android:textStyle="normal"
+                android:text="Infoxpression is the annual techno-cultural fest of University school of Information and Communication Technology. It is the biggest technical extravaganza held at Indraprastha University, which involves an active participation of students from over 250+ colleges of north India attracting a footfall of about 5000+. Infoxpression is an exhilarating voyage of technical know- how and promoting technology and innovation. It would give you a chance to stop, culminate new ideas and to showcase your technical expertise. Our endeavor would be to provide a space needed for the nurturing of myriad ideas. It is a three day grandeur which involves a series of competitions, workshops, guest lectures by some eminent personalities. Guru Gobind Singh Indraprastha University was established in 1999 with the mission to strive hard and provide a market oriented professional education to the student community of India. To fulfill this aim and to bring students face to face with cutting edge technology, Infoxpression is an amalgamation of creativity and imagination. It would be a perfect blend of entertainment and technology with the aim of transformation and empowerment of the society."                 android:textSize="15dp"
+                android:gravity="left"
+                android:textColor="#FFFFFF"></TextView>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

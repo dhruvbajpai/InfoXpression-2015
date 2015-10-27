@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="#9FB3CA"
+        android:layout_width="match_parent">
+        <!--<android.support.v7.widget.CardView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android" >-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F8F7"
+            android:id="@+id/n_one"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/col"
+                android:layout_gravity="top"
+
+
+                android:id="@+id/imgview" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="205dp"
+                            android:layout_height="30dp"
+                            android:text="CLASH ON LAN"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:gravity="left"
+                            android:textStyle="bold"
+                            android:id="@+id/evntname" />
+                        <TextView
+                            android:id="@+id/date"
+                            android:textStyle="bold"
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:textColor="#3D96FB"
+                            android:layout_height="15dp"
+                            android:text="Feb 13" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="1dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="EVENT TYPE: "
+                                android:textStyle="bold"
+                                android:textColor="#890C21"
+                                android:id="@+id/event_type"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:textColor="#3AB531"
+                                android:text="Technical"
+                                android:id="@+id/category" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="Get ready for an adrenaline rush and a test of your senses. Compete against participants of
+different colleges to triumph as the best LAN gaming team. We have for you, first person
+shooters, races and what not. So get ready to enter a world of virtual reality, and prove
+yourself the best."
+                            android:ellipsize="marquee"
+                            android:maxLines="2"
+
+                            android:id="@+id/evntdesc" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!--SECOND EVENT...............................-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F8F7"
+            android:layout_marginTop="3dp"
+            android:id="@+id/n_two"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/crusade"
+                android:layout_gravity="top"
+
+
+                android:id="@+id/imgview1" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="205dp"
+                            android:layout_height="30dp"
+                            android:text="CRUSADE"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:gravity="left"
+                            android:textStyle="bold"
+                            android:id="@+id/evntname1" />
+                        <TextView
+                            android:id="@+id/date1"
+                            android:textStyle="bold"
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:textColor="#3D96FB"
+                            android:layout_height="15dp"
+                            android:text="Feb 13" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="1dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="EVENT TYPE: "
+                                android:textStyle="bold"
+                                android:textColor="#890C21"
+                                android:id="@+id/event_type1"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:textColor="#3AB531"
+                                android:text="Technical"
+                                android:id="@+id/category1" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="The box of miracles and secrets is waiting for you. Come and explore a whole new world
+within. Experience fun, like you have never before. Apply your brain in every technical aspect
+and hunt for the treasure."
+                            android:ellipsize="marquee"
+                            android:maxLines="2"
+
+                            android:id="@+id/evntdesc1" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <!--THIRD VIEW.............................................-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F8F7"
+            android:layout_marginTop="3dp"
+            android:id="@+id/n_three"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/geekwars"
+                android:layout_gravity="top"
+
+
+                android:id="@+id/imgview2" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="205dp"
+                            android:layout_height="30dp"
+                            android:text="GEEK WARS"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:gravity="left"
+                            android:textStyle="bold"
+                            android:id="@+id/evntname2" />
+                        <TextView
+                            android:id="@+id/date2"
+                            android:textStyle="bold"
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:textColor="#3D96FB"
+                            android:layout_height="15dp"
+                            android:text="Feb 13" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="1dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="EVENT TYPE: "
+                                android:textStyle="bold"
+                                android:textColor="#890C21"
+                                android:id="@+id/event_type2"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:textColor="#3AB531"
+                                android:text="Technical"
+                                android:id="@+id/category2" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="Arguments are naturally constructive. They lead to a mind open to new ideas. In a field as
+dynamic as technology, we need to argue to keep ourselves on our toes and constantly
+updated. Thus, all our welcome to the technical debate."
+                            android:ellipsize="marquee"
+                            android:maxLines="2"
+
+                            android:id="@+id/evntdesc2" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- FOURTH EVENT..........................................-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F8F7"
+            android:layout_marginTop="3dp"
+            android:id="@+id/n_four"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/green"
+                android:layout_gravity="top"
+
+
+                android:id="@+id/imgview3" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="205dp"
+                            android:layout_height="30dp"
+                            android:text="GREENOVATION"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:gravity="left"
+                            android:textStyle="bold"
+                            android:id="@+id/evntname3" />
+                        <TextView
+                            android:id="@+id/date3"
+                            android:textStyle="bold"
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:textColor="#3D96FB"
+                            android:layout_height="15dp"
+                            android:text="Feb 13" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="1dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="EVENT TYPE: "
+                                android:textStyle="bold"
+                                android:textColor="#890C21"
+                                android:id="@+id/event_type3"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:textColor="#3AB531"
+                                android:text="Technical"
+                                android:id="@+id/category3" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="This event calls out all the thinkers who can come up with great and green ideas, to make this
+world a better place. These green ideas will help in sustainable development in the long run
+and help make our present environment eco-friendly. So put on your thinking caps and give
+us your best ideas."
+                            android:ellipsize="marquee"
+                            android:maxLines="2"
+
+                            android:id="@+id/evntdesc3" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+        <!--FIFTH EVENT........................................-->
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F8F7"
+            android:layout_marginTop="3dp"
+            android:id="@+id/n_five"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/backgear"
+                android:layout_gravity="top"
+
+
+                android:id="@+id/imgview4" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="205dp"
+                            android:layout_height="30dp"
+                            android:text="KNOW-IT-ALL"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:gravity="left"
+                            android:textStyle="bold"
+                            android:id="@+id/evntname4" />
+                        <TextView
+                            android:id="@+id/date4"
+                            android:textStyle="bold"
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:textColor="#3D96FB"
+                            android:layout_height="15dp"
+                            android:text="Feb 13" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="1dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="EVENT TYPE: "
+                                android:textStyle="bold"
+                                android:textColor="#890C21"
+                                android:id="@+id/event_type4"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:textColor="#3AB531"
+                                android:text="Technical"
+                                android:id="@+id/category4" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="It is said that knowledge increases when it is shared. Through this event we are giving
+students an opportunity to share and increase their knowledge through a quiz competition.
+The quiz will cover a variety of topics testing the participants’ knowledge in multiple fields.
+Participants will face off against other geniuses in order to determine the smartest of them all.
+So if you think that you have what it takes, take part and let your knowledge help you win the
+title of the biggest ‘Know It All’."
+                            android:ellipsize="marquee"
+                            android:maxLines="2"
+
+                            android:id="@+id/evntdesc4" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+        <!-- SIXTH EVENT.................................-->
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F8F7"
+            android:id="@+id/n_six"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+
+
+                android:src="@drawable/rubix"
+                android:layout_gravity="top"
+
+
+                android:id="@+id/imgview5" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="205dp"
+                            android:layout_height="30dp"
+                            android:text="RUBIX"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:gravity="left"
+                            android:textStyle="bold"
+                            android:id="@+id/evntname5" />
+                        <TextView
+                            android:id="@+id/date5"
+                            android:textStyle="bold"
+
+                            android:layout_width="50dp"
+                            android:gravity="center"
+                            android:textColor="#3D96FB"
+                            android:layout_height="15dp"
+                            android:text="Feb 13" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="1dp">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="EVENT TYPE: "
+                                android:textStyle="bold"
+                                android:textColor="#890C21"
+                                android:id="@+id/event_type5"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:textColor="#3AB531"
+                                android:text="Technical"
+                                android:id="@+id/category5" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:text="A puzzle over which millions have spent millions of hours. The Rubik’s Cube is a mind
+boggling toy. With its pivoting surfaces and only one correct solution, it truly takes a
+mastermind to solve it.
+But we are searching for the genius among geniuses. So come solve The Cube quicker than
+any other. Beat both the puzzle and the solution."
+                            android:ellipsize="marquee"
+                            android:maxLines="2"
+
+                            android:id="@+id/evntdesc5" />
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
